@@ -1,0 +1,40 @@
+page-monster {
+
+}
+
+.main-container {
+	background-color: $violet;
+	
+}
+
+.icons{
+  border-radius: 50%; /*make image in a circle*/
+  background: white;
+  margin-right: 10px;
+  margin-top: 4px;
+
+
+  }
+
+.fullwidth{
+	 width: 100%;
+	 margin: 0px;
+	 padding: 0px;
+}
+
+.heading {	
+	color: $white;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+.text {
+	color: $white;
+
+}
+
+.icon {
+	margin-right: 20px;
+}

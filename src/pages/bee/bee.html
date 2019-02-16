@@ -1,0 +1,37 @@
+<!--
+  Generated template for the BeePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+           <ion-icon name="home" (click)="goHome()" ></ion-icon>
+    <ion-title style="text-align: center;">BySafari</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="main-container-bee">
+<ion-grid class="fullwidth">
+  <ion-row class="fullwidth">
+    <ion-col class="fullwidth">
+<img src="../assets/imgs/bee-cover.png" class="no-space fullwidth"></ion-col>
+  </ion-row>
+  <ion-row>
+  	<h2 class="heading">
+  		<img src="../assets/icon/bee-icon.png" height="50px" width="50px" class="icons">BiSafari</h2>
+  </ion-row>
+  <ion-row>
+    <ion-col class="padding text"> <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.</p></ion-col>   
+  </ion-row>
+  <ion-row>
+    	<button ion-button 
+    	class="buttonround center" (click)="goHome()" color="yellow"> 
+    	Next</button>
+    	</ion-row>
+</ion-grid>
+</ion-content>

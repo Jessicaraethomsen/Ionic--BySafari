@@ -1,0 +1,79 @@
+.tutorial-page {
+
+  .toolbar-background {
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .slide-zoom {
+    height: 100%;
+    z-index: 2;
+  }
+
+  .slide-title {
+    margin-top: 10px;
+    z-index: 2;
+    
+  }
+
+  .slide-image {
+    z-index: 2;
+    max-height: 30%;
+    max-width: 30%;
+    margin: 5px 0;
+  
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $white;
+
+    b {
+      color: #000000;
+    }
+  }
+}
+
+.intro-bg{
+background-image: url("../../assets/imgs/bg-intro.png");
+background-size: cover;
+
+}
+
+.cloud{
+  position: absolute;
+  z-index: 1;
+  animation: drift 30s linear infinite;
+}
+
+.cloud2{
+  position: absolute;
+  z-index: 1;
+  animation: drift2 60s  linear infinite;
+}
+
+@keyframes drift{
+  from{transform:translateX(-105px);}
+  to{transform:translateX(500px);}
+}
+
+@keyframes drift2{
+  from{transform:translateX(-105px);}
+  to{transform:translateX(500px);}
+}
+
+.buttonintro{
+  margin-top: 10px;
+  border-radius: 50px;
+  padding: 30px 80px;
+  font-family: Marker;
+  font-size: 30px;
+  text-align: center;
+  color: $white;
+}

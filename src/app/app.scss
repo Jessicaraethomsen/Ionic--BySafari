@@ -1,0 +1,147 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@font-face{
+	font-family: Marker;
+	src: url('../assets/fonts/PermanentMarker-webfont.woff');
+}
+
+@font-face{
+	font-family: Open Sans;
+	src: url('../assets/fonts/opensans_regular_macroman.woff');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Knewave');
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+h2{
+	font-family: Knewave;
+	font-size: 40px;
+	text-align: center;
+	color: $white;
+}
+
+
+p {
+	font-family: Open Sans;
+	padding: 10px 10px;
+    font-size: 19px;
+    line-height: 1.5;
+    color: $white;
+}
+
+
+.buttonround {
+	border-radius: 50px;
+	padding: 30px 80px;
+	font-family: Knewave;
+	font-size: 30px;
+	text-align: center;
+	color: $white;
+	top: 20px;
+	bottom: 20px;
+}
+
+
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.no-space {
+	margin: 0;
+	padding: 0;
+}
+
+
+.fullwidth{
+	 width: 100%;
+	 margin: 0px;
+	 padding: 0px;
+}
+
+
+/*.toolbar-background {
+	background-color: #90d0ad;
+
+}*/
+
+.ion-ios-home {
+	float: right;
+	border: 3px solid white;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+
+/*ICONS CSS*/
+
+.ion-md-home{
+	float: right;
+	border: 3px solid white;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+
+.icons{
+  border-radius: 50%; /*make image in a circle*/
+  background: white;
+  margin-right: 10px;
+  }
+
+
+/*.ion-md-home {
+float: right;
+    right: 0px;
+    width: 50px;
+    border: 3px solid red;
+    padding: 10px;
+    
+}*/
+
+/*MENU STYLE*/
+
+ion-title {
+	font-family: Knewave;
+
+}
+
+.input-wrapper {
+	font-family: Open Sans;
+	font-weight: 500;
+	color: #38393d;
+}
+
+
+.icon-menu {
+	padding: 10px;
+}
+
+.item-icon {
+	color: $darkgrey;
+}
+
+ 

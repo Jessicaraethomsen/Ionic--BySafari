@@ -1,0 +1,192 @@
+page-water {
+
+}
+ .main-container-water {
+	background-color: $blue;
+}
+
+
+.heading {	
+	color: $white;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+.text {
+	color: $white;
+
+}
+
+.icon {
+	margin-right: 20px;
+}
+
+
+.wrapper{
+	width: 708px;
+	height: 350px;
+	/*background-color: blue;*/
+	 /*margin: 6em 0;*/
+
+}
+
+.submarine {
+	animation: swim 15s infinite ease-in-out;
+	
+position: absolute;
+top: 100px;
+}
+
+.bubble {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 0;
+	/*animation: up 15s infinite ease-in-out;*/
+}
+
+.bubbles {
+	animation: bubblesUp 10s infinite ;
+	z-index: 99;
+
+}
+
+.bubble2 {
+	
+	transform: translateX(-200px);	
+	animation: bubblesUp 15s infinite ;
+
+}
+
+.bubble3{
+	animation: bubblesUp 5s infinite ;
+}
+
+.bubble4{
+	animation: bubblesUp 10s infinite;
+}
+
+
+
+.fish {
+	animation: fishSwim 10s infinite ease-in-out;
+}
+
+
+@keyframes fishSwim {
+
+	0%{
+		transform: translateX(500px) translateY(10px);
+	}
+
+	
+	100%{
+		transform: translateX(-500px) translateY(10px);
+	}
+}
+
+.jellyfish {
+	animation: up 5s infinite ease-in-out;
+}
+
+
+@keyframes swim {
+
+	0%{
+		transform: translateX(-220px);
+	}
+
+	40%{
+		transform: translateX(50px);
+	}
+	
+	100%{
+		transform: translateX(1000px);
+	}
+}
+
+
+@keyframes bubblesUp {
+	0% {
+		transform: translateX(100px) translateY(350px);
+		opacity: 0;
+	}
+
+	100%{
+		transform: translateX(200px) translateY(-300px);
+		opacity: 1;
+	}
+
+}
+
+
+
+@keyframes up {
+
+	0% {
+		transform: translateX(90px) translateY(200px);
+		opacity: 0;
+	}
+
+	10% {
+		transform: translateX(90px)
+		
+	}
+
+	50% {
+		transform: translateY(200px);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateY(-400px);
+
+	}
+}
+
+@keyframes wobble {
+	
+	33% {
+		transform: translateX(-50px);
+	}
+	
+	66% {
+		transform: translateX(50px);
+	}
+	
+}
+
+
+
+@keyframes upUp {
+
+	0% {
+		transform: translateX(-350px), 
+		translateY(350px);
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 1;
+	}
+
+	50% {
+		transform: translateY(200px);
+		opacity: 1;
+	}
+
+	90% {
+		transform: translateY( 200px);
+		opacity: .4;
+	}
+
+
+	100% {
+		transform: translateX(200px), translateY(330px);
+		opacity: 0;
+
+	}
+	
+}

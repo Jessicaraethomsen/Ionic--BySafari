@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="text-align: center;">BySafari</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+   <ion-card >
+    <div class="card-top"> <p >CHOOSE A UNIVERSE TO BEGIN</p> </div>
+  </ion-card>
+
+ <ion-card (click)="goMonster()">
+    <img src="../assets/imgs/home-monster.png"/>
+    <div><h2 class="card-title-home">City Monsters</h2></div>
+    <div><p class="card-subtitle-time">Duration: 60min</p></div>
+    <div><p class="card-subtitle-dis">Distance to: .8km</p></div>
+  </ion-card>
+
+ 
+
+  <ion-card (click)="goBee()">
+    <img src="../assets/imgs/home-bee.png"/>
+    <div><h2 class="card-title-home">Bee Safari</h2></div>
+    <div><p class="card-subtitle-time">Duration: 40min</p></div>
+    <div><p class="card-subtitle-dis">Distance to: .5km</p></div>
+  </ion-card>
+
+    <ion-card (click)="goWater()">
+    <img src="../assets/imgs/home-fish.png"/>
+    <div><h2 class="card-title-home">Wonder Waters</h2></div>
+      <div><p class="card-subtitle-time">Duration: 60min</p></div>
+    <div><p class="card-subtitle-dis">Distance to: 4km</p></div>
+  </ion-card>
+
+  <ion-card (click)="goBird()" class="card">
+    <img src="../assets/imgs/card-bird.png"/>
+    <div><h2 class="card-title-home">Flying Friend</h2></div>
+    <div><p class="card-subtitle-time">Duration: 30min</p></div>
+    <div><p class="card-subtitle-dis">Distance to: .1km</p></div>
+  </ion-card>
+
+
+
+</ion-content>
